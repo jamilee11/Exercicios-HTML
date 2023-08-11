@@ -1,0 +1,80 @@
+#kanino-logo {
+    height: 60px;
+    width: 60px;
+}
+
+header {
+    background-color: #FFFDD0;
+}
+nav, li {
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 20px;
+   
+}
+nav {
+    margin: auto;
+}
+
+main {
+    background-color: #EAEAEA;
+}
+
+
+.base-botao {
+    border: none;
+    background-color: #EAEAEA;
+}
+
+.base-botao:hover {
+    background-color: rgb(215, 215, 215);
+}
+
+.base-botao:active {
+    background-color: rgb(215, 215, 215);
+    
+}
+
+
+
+
+
+
+#botao-doar-pet:target {
+    display: block;
+}
+
+.letra-marrom {
+    color: #8B5A2B;
+}
+
+footer {
+    background-color: #8B5A2B;
+}
+.letra-branca {
+    color: white;
+}
+
+.campo-base {
+    width: 200px;
+    padding: 1px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 25px;
+   /* resize: vertical;*/
+}
+
+#campo-email {
+    margin-top: 23px;
+}
+
+#campo-imagem-pet {
+    
+}
+
+
+
+#redes-sociais {
+    margin-left: 19em;
+    display: inline-block;
+}
