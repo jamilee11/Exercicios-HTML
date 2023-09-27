@@ -7,8 +7,6 @@ De acordo com os comandos aprendidos, programe códigos SQL para criar um banco 
 5. adicione um atributo e-mail do tipo varchar;
 6. adicione um atributo endereço do tipo varchar.
 
-
-
 CREATE DATABASE ESCOLA;
 use ESCOLA;
 
