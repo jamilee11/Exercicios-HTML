@@ -1,0 +1,17 @@
+/*
+	Uma empresa de vendas tem um banco de dados com informações sobre os seus produtos.
+	Ela precisa criar um relatório que faça um levantamento diário da quantidade de 
+	produtos comprados por dia. Para ajudar a empresa, crie um procedure para agilizar 
+	esse processo.
+
+	Resposta do exercício:
+*/	
+
+	DELIMITER $$
+   	 CREATE PROCEDURE verQTProdutosComprados()
+         BEGIN
+           SELECT nome_produto,tipo_produto FROM produtos
+	   WHERE data_compra == GETDATE();
+         END $$
+        DELIMITER;
+
